@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebViewController.h
 //  BigWeb
 //
 //  Created by fang on 15/5/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WebViewController : UIViewController
 
 @end
-

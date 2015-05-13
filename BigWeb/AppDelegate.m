@@ -7,9 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "WebViewController.h"
 
 @interface AppDelegate ()
-
 @end
 
 @implementation AppDelegate
@@ -17,8 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
-    
+    WebViewController *webVC = [[WebViewController alloc] initWithNibName:nil bundle:nil];
+    self.window.rootViewController = webVC;
     
     
     self.window.backgroundColor = [UIColor whiteColor];

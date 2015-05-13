@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		321154B91B041125004DFEED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 321154B81B041125004DFEED /* main.m */; };
 		321154BC1B041125004DFEED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 321154BB1B041125004DFEED /* AppDelegate.m */; };
-		321154BF1B041125004DFEED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321154BE1B041125004DFEED /* ViewController.m */; };
 		321154C41B041125004DFEED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321154C31B041125004DFEED /* Images.xcassets */; };
 		321154D31B041125004DFEED /* BigWebTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 321154D21B041125004DFEED /* BigWebTests.m */; };
+		32C0AE0B1B0413D60099B518 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C0AE0A1B0413D60099B518 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +30,12 @@
 		321154B81B041125004DFEED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		321154BA1B041125004DFEED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		321154BB1B041125004DFEED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		321154BD1B041125004DFEED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		321154BE1B041125004DFEED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		321154C31B041125004DFEED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		321154CC1B041125004DFEED /* BigWebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigWebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		321154D11B041125004DFEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		321154D21B041125004DFEED /* BigWebTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigWebTests.m; sourceTree = "<group>"; };
+		32C0AE091B0413D60099B518 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		32C0AE0A1B0413D60099B518 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +79,8 @@
 			children = (
 				321154BA1B041125004DFEED /* AppDelegate.h */,
 				321154BB1B041125004DFEED /* AppDelegate.m */,
-				321154BD1B041125004DFEED /* ViewController.h */,
-				321154BE1B041125004DFEED /* ViewController.m */,
+				32C0AE091B0413D60099B518 /* WebViewController.h */,
+				32C0AE0A1B0413D60099B518 /* WebViewController.m */,
 				321154C31B041125004DFEED /* Images.xcassets */,
 				321154B61B041125004DFEED /* Supporting Files */,
 			);
@@ -211,9 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				321154BF1B041125004DFEED /* ViewController.m in Sources */,
 				321154BC1B041125004DFEED /* AppDelegate.m in Sources */,
 				321154B91B041125004DFEED /* main.m in Sources */,
+				32C0AE0B1B0413D60099B518 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +389,7 @@
 				321154D81B041125004DFEED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		321154D91B041125004DFEED /* Build configuration list for PBXNativeTarget "BigWebTests" */ = {
 			isa = XCConfigurationList;
@@ -397,6 +398,7 @@
 				321154DB1B041125004DFEED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
