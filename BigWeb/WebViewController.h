@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface WebViewController : UIViewController
-
+@property (readonly) UIWebView *webView;
 @end
